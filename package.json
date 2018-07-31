@@ -1,0 +1,36 @@
+{
+  "name": "dpixels",
+  "version": "1.0.0",
+  "description": "July 2018 - React, Webpack, and Babel Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaMaddox/steemDapp.git"
+  },
+  "keywords": [
+    "steem"
+  ],
+  "author": "Joshua Maddox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoshuaMaddox/steemDapp/issues"
+  },
+  "homepage": "https://github.com/JoshuaMaddox/steemDapp#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
